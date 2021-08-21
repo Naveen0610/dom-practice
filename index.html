@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DOM</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
 <body>
-    <h1 >hello</h1>
-    <h2>hello world</h2>
-    <p class="box" >Happy Independence day </p>
-    <p>to all</p>
-    <h1>hello access!</h1>
-    <h3 id="dom">learning dom</h3>
-    <h4>learning dom-basics</h4>
+    <div id="parent">
+    <h1 >hello world</h1>
+    
+    <p id="heading">learning   <b> DOM-basics</b> </p>
+    <p id="midpara">hello all</p>
+    <h1 id="access">hello access!</h1>
+    <h3>hello again</h3>
+    
+</div>
+<p id="content">this is paragraph</p>
+<button onclick="onAddClass()">Add Class</button>
+<button onclick="onRemoveClass()">Remove Class</button>
     
 </body>
 </html>
